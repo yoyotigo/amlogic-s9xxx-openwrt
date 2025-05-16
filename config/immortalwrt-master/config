@@ -1,6 +1,8 @@
 #
 # Automatically generated file; DO NOT EDIT.
 # ImmortalWrt Configuration
+./scripts/feeds update istore
+./scripts/feeds install -d y -p istore luci-app-store
 #
 CONFIG_MODULES=y
 CONFIG_HAVE_DOT_CONFIG=y
